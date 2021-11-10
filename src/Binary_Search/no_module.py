@@ -1,0 +1,1 @@
+[K:=list(map(int, input().split()))[1],A:=list(map(int, input().split())),lb:=lambda A,K,l,r:r if r-l<=1 else lb(A,K,(l+r)//2,r) if A[(l+r)//2]<=K else lb(A,K,l,(l+r)//2), print(-1 if lb(A,K,0,len(A))==len(A) else lb(A,K,0,len(A)))] 

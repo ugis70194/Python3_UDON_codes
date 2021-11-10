@@ -1,0 +1,1 @@
+[N:=int(input()), A:=list(map(int, input().split())), print(min([factor_2(a, 0) for a in A for factor_2 in [lambda a, c : c if a%2 else factor_2(a//2, c+1)]]))]

@@ -1,0 +1,1 @@
+[print(sum(A[0::2]) - sum(A[1::2])) for _ in [input()] for A in [sorted(list(map(int, input().split())), reverse=True)]]

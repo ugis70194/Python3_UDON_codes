@@ -1,0 +1,1 @@
+[N := int(input()), D := [1000] + sorted([int(input()) for i in range(0, N)], reverse=True), print(sum([ D[i-1] > D[i] for i in range(1, N+1)]))]

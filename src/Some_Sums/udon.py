@@ -1,0 +1,1 @@
+[NAB:=list(map(int, input().split())), print(sum([n if NAB[1] <= sum(list(map(int, str(n)))) <= NAB[2] else 0 for n in range(0, NAB[0]+1)]))]

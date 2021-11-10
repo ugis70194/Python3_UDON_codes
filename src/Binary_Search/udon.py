@@ -1,0 +1,1 @@
+[K := list(map(int, input().split()))[1], A:= list(map(int, input().split())), print(-1 if (idx := [bisect.bisect_left(A, K) for bisect in [__import__("bisect")]][0]) == len(A) else idx)]

@@ -1,0 +1,1 @@
+[num := list(map(int, input().split())), print("EOvdedn"[num[0]*num[1]%2::2])]
